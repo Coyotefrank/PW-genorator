@@ -11,7 +11,10 @@ function generatePassword(){
   } 
 
   //confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-
+  var lowercase = confirm("please add lowercase")
+  var uppercase = confirm("would you like to add uppercase?")
+  var number = confirm("Would you like to add a number?")
+  var specialCharacter = confirm("would you like to add a special character?")
 }
 
 // Write password to the #password input
