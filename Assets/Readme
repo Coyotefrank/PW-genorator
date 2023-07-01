@@ -1,0 +1,41 @@
+# Password genorator
+
+## Technology Used 
+-MDN site 
+- W3 schools
+- Google 
+- Chat GBT
+
+https://www.w3schools.com/
+https://chat.openai.com/?model=text-davinci-002-render-sha
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+   
+
+## Description 
+
+[Visit the Deployed Site]() 
+
+This project I used Javascript to modify the webpage of a password generator.
+Befoe I worked on the page there was no way to actually creat a password.
+With the work I did on the Javascript code you are now able to generate a password with a limited amount of 
+characters and different types of characters, such as numbers, speacial characters, upper and lowercase characters.
+
+
+
+### Frank Jimenez
+
+
+* [LinkedIn](https://www.linkedin.com/feed/)
+* [Github](https://github.com/Coyotefrank)
+```
+
+
+I would deffinetly like to give credit to the tutros at the schools for spending one on one time with me to help 
+me understand what i was and was not doing.
+
+
+
+
+## Credits
+
+List your collaborators, if any, with links to their GitHub profiles.
