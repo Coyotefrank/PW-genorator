@@ -9,6 +9,7 @@ function generatePassword(){
   //length of at least 8 characters and no more than 128 characters
   if (passwordLength < 8 || passwordLength > 128) {
     alert("password length dose not meet requirments");
+    console.log("password requirements met")
     return
   } 
 
@@ -17,7 +18,7 @@ function generatePassword(){
   var uppercase = confirm("would you like to add uppercase character?")
   var number = confirm("Would you like to add a number?")
   var specialCharacter = confirm("would you like to add a special character?")
-  
+
 }
 
 // Write password to the #password input
@@ -27,11 +28,24 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 //setting value to passsword
   passwordText.value = password;
+  
+}
 
+function chooseOk(){
+  var chooseOk = prompt("Please enter a number");
+
+  if(number=== chooseOk){
+    alert("you have added a number to your password")
+  }
 }
 
 
 
+
+
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword );
+generateBtn.addEventListener("click", writePassword ,);
+console.log("button clicked")
+
+generateBtn.addEventListener("click",chooseOk ,)
 
